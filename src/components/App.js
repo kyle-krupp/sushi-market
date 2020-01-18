@@ -8,7 +8,7 @@ class App extends React.Component {
     return (
       <div className="sushi-of-the-day">
         <div className="menu">
-          <Header />
+          <Header tagline="Sushi Sunday" age={100} />
         </div>
         <Inventory />
         <Order />

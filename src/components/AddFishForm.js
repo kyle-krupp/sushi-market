@@ -18,12 +18,12 @@ class AddFishForm extends React.Component {
       image: this.imageRef.current.value
     };
     this.props.addRolls(roll);
-    //refresh the form
+    // 2. refresh the form
     e.currentTarget.reset();
   };
   render() {
     return (
-      <form className="fish-edit" onSubmit={this.createFish}>
+      <form className="sushi-edit" onSubmit={this.createFish}>
         <input type="text" ref={this.nameRef} name="name" placeholder="name" />
         <input
           type="text"

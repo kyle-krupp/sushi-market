@@ -1,6 +1,6 @@
 // This is just some sample data so you don't have to think of your own!
-const fishes = {
-  fish1: {
+const rolls = {
+  roll1: {
     name: "Pacific Halibut",
     image: "/images/hali.jpg",
     desc:
@@ -9,7 +9,7 @@ const fishes = {
     status: "available"
   },
 
-  fish2: {
+  roll2: {
     name: "Lobster",
     image: "/images/lobster.jpg",
     desc:
@@ -18,7 +18,7 @@ const fishes = {
     status: "available"
   },
 
-  fish3: {
+  roll3: {
     name: "Sea Scallops",
     image: "/images/scallops.jpg",
     desc:
@@ -27,7 +27,7 @@ const fishes = {
     status: "unavailable"
   },
 
-  fish4: {
+  roll4: {
     name: "Mahi Mahi",
     image: "/images/mahi.jpg",
     desc:
@@ -36,7 +36,7 @@ const fishes = {
     status: "available"
   },
 
-  fish5: {
+  roll5: {
     name: "King Crab",
     image: "/images/crab.jpg",
     desc:
@@ -45,7 +45,7 @@ const fishes = {
     status: "available"
   },
 
-  fish6: {
+  roll6: {
     name: "Atlantic Salmon",
     image: "/images/salmon.jpg",
     desc:
@@ -54,7 +54,7 @@ const fishes = {
     status: "available"
   },
 
-  fish7: {
+  roll7: {
     name: "Oysters",
     image: "/images/oysters.jpg",
     desc: "A soft plump oyster with a sweet salty flavor and a clean finish.",
@@ -62,7 +62,7 @@ const fishes = {
     status: "available"
   },
 
-  fish8: {
+  roll8: {
     name: "Mussels",
     image: "/images/mussels.jpg",
     desc:
@@ -71,7 +71,7 @@ const fishes = {
     status: "available"
   },
 
-  fish9: {
+  roll9: {
     name: "Jumbo Prawns",
     image: "/images/prawns.jpg",
     desc:
@@ -81,4 +81,4 @@ const fishes = {
   }
 };
 
-export default fishes;
+export default rolls;

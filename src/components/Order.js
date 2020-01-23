@@ -5,7 +5,9 @@ class Order extends Component {
   renderOrder = key => {
     const roll = this.props.rolls[key];
     const count = this.props.order[key];
-    const isAvailable = roll.status === "available";
+    const isAvailable = roll && roll.status === "available";
+    // make sure the rolls are loaded before continuing
+    if (!roll) return null;
     if (!isAvailable) {
       return (
         <li key={key}>

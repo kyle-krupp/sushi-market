@@ -12,12 +12,36 @@ class App extends React.Component {
     order: {}
   };
 
+  // ===== Lifecycle methods =========//
+
   componentDidMount() {
-    this.ref = base.syncState(`${this.props.match.params.storeId}/rolls`, {
+    const { params } = this.props.match;
+    // first reinstate localStorage
+    const localStorageRef = localStorage.getItem(params.storeId);
+    if (localStorageRef) {
+      this.setState({ order: JSON.parse(localStorageRef) });
+    }
+
+    this.ref = base.syncState(`${params.storeId}/rolls`, {
       context: this,
       state: "rolls"
     });
   }
+
+  // to prevent memory leaks
+  componentWillUnmount() {
+    base.removeBinding(this.ref);
+  }
+
+  componentDidUpdate() {
+    localStorage.setItem(
+      this.props.match.params.storeId,
+      JSON.stringify(this.state.order)
+    );
+  }
+
+  // === end lifecycle methods === ///
+
   addRolls = roll => {
     // 1. Take a copy of the existing state
     const rolls = { ...this.state.rolls };

@@ -51,6 +51,16 @@ class App extends React.Component {
     this.setState({ rolls });
   };
 
+  updateRoll = (key, updatedRoll) => {
+    this.setState({ rolls: sampleRolls });
+    // 1. Take a copy of the current state
+    const rolls = { ...this.state.rolls };
+    // 2. update that state
+    rolls[key] = updatedRoll;
+    // 3. set that to state
+    this.setState({ rolls });
+  };
+
   loadSampleRolls = () => {
     this.setState({ rolls: sampleRolls });
   };
@@ -83,7 +93,9 @@ class App extends React.Component {
         <Order rolls={this.state.rolls} order={this.state.order} />
         <Inventory
           addRolls={this.addRolls}
+          updateRoll={this.updateRoll}
           loadSampleRolls={this.loadSampleRolls}
+          rolls={this.state.rolls}
         />
       </div>
     );

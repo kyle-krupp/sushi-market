@@ -1,82 +1,76 @@
 // This is just some sample data so you don't have to think of your own!
 const rolls = {
   roll1: {
-    name: "Pacific Halibut",
-    image: "/images/hali.jpg",
+    name: "Spider Roll",
+    image: "/images/spider.jpeg",
     desc:
-      "Everyone’s favorite white fish. We will cut it to the size you need and ship it.",
-    price: 1724,
+      "Contains: tempura soft-shell crab, avocado, cucumber, and spicy mayo",
+    price: 299,
     status: "available"
   },
 
   roll2: {
-    name: "Lobster",
-    image: "/images/lobster.jpg",
+    name: "Rainbow Roll",
+    image: "/images/rainbow.jpg",
     desc:
-      "These tender, mouth-watering beauties are a fantastic hit at any dinner party.",
-    price: 3200,
+      "Contains: imitation crab, avocado, cucumber, tuna, salmon, shrimp, yellowtail ",
+    price: 299,
     status: "available"
   },
 
   roll3: {
-    name: "Sea Scallops",
-    image: "/images/scallops.jpg",
-    desc:
-      "Big, sweet and tender. True dry-pack scallops from the icey waters of Alaska. About 8-10 per pound",
-    price: 1684,
+    name: "California Roll",
+    image: "/images/california.jpg",
+    desc: "Contains: Imitation crab, avocado, cucumber",
+    price: 299,
     status: "unavailable"
   },
 
   roll4: {
-    name: "Mahi Mahi",
-    image: "/images/mahi.jpg",
-    desc:
-      "Lean flesh with a mild, sweet flavor profile, moderately firm texture and large, moist flakes. ",
-    price: 1129,
+    name: "Spicy Tuna Roll",
+    image: "/images/spicytuna.jpg",
+    desc: "Contains: tuna, spicy mayo",
+    price: 299,
     status: "available"
   },
 
   roll5: {
-    name: "King Crab",
-    image: "/images/crab.jpg",
-    desc:
-      "Crack these open and enjoy them plain or with one of our cocktail sauces",
-    price: 4234,
+    name: "Shrimp Tempura Roll",
+    image: "/images/shrimptempura.jpg",
+    desc: "Contains: shrimp tempura, avocado, eel sauce",
+    price: 299,
     status: "available"
   },
 
   roll6: {
-    name: "Atlantic Salmon",
-    image: "/images/salmon.jpg",
-    desc:
-      "This flaky, oily salmon is truly the king of the sea. Bake it, grill it, broil it...as good as it gets!",
-    price: 1453,
+    name: "Boston Roll",
+    image: "/images/bostonroll.jpg",
+    desc: "Contains: shrimp, avocado, cucumber ",
+    price: 299,
     status: "available"
   },
 
   roll7: {
-    name: "Oysters",
-    image: "/images/oysters.jpg",
-    desc: "A soft plump oyster with a sweet salty flavor and a clean finish.",
-    price: 2543,
+    name: "Dragon Roll",
+    image: "/images/dragon.jpg",
+    desc: "Contains: eel, crab sticks, avocado, cucumber, eel sauce ",
+    price: 299,
     status: "available"
   },
 
   roll8: {
-    name: "Mussels",
-    image: "/images/mussels.jpg",
-    desc:
-      "The best mussels from the Pacific Northwest with a full-flavored and complex taste.",
-    price: 425,
+    name: "King Grab Roll",
+    image: "/images/kingcrab.jpg",
+    desc: "Contains: King Crab, mayonnaise",
+    price: 299,
     status: "available"
   },
 
   roll9: {
-    name: "Jumbo Prawns",
-    image: "/images/prawns.jpg",
-    desc:
-      "With 21-25 two bite prawns in each pound, these sweet morsels are perfect for shish-kabobs.",
-    price: 2250,
+    name: "Philadelphia Roll",
+    image: "/images/philly.jpg",
+    desc: "Contains: salmon, avocado, cream cheese",
+    price: 299,
     status: "available"
   }
 };

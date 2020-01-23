@@ -236,10 +236,15 @@ html {
   font-size: 62.5%;
 }
 body {
-  background: #d4d4d4;
+  background: url(https://media.giphy.com/media/3og0IunizV9M3xj4dO/giphy.gif)
+    no-repeat center center fixed;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Open Sans", sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   font-size: 2rem;
 }
 h1 {
@@ -334,6 +339,8 @@ header.top h3:after {
   perspective: 1000px;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
+  color: green;
+  opacity: 0.9;
 }
 .sushi-of-the-day > * {
   -webkit-box-flex: 1;

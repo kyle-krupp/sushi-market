@@ -246,6 +246,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   font-size: 2rem;
+  margin: 55px;
 }
 h1 {
   font-family: "blanchcaps_inline", sans-serif;
@@ -333,8 +334,8 @@ header.top h3:after {
   display: flex;
   height: 90vh;
   max-width: 1500px;
-  margin: 0 auto;
-  margin-top: 5vh;
+  margin: 10 auto;
+  margin-top: 10vh;
   -webkit-perspective: 1000px;
   perspective: 1000px;
   -webkit-transform-style: preserve-3d;
@@ -381,7 +382,6 @@ input#fold:not(:checked) ~ #main .sushi-of-the-day > * {
 }
 label[for="fold"] {
   position: absolute;
-  top: 1rem;
   left: 1rem;
   text-transform: uppercase;
   font-size: 1.3rem;
@@ -390,6 +390,7 @@ label[for="fold"] {
   border: 2px solid #000;
   cursor: pointer;
   padding: 0.5rem 1rem;
+  margin-top: 4px;
 }
 input#fold {
   display: none;

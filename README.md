@@ -2,7 +2,7 @@
 
 # _React App for a sushi storefront_
 
-_Demo:_[Sushi Sunday](https://sushi-sunday.firebaseapp.com)
+_Demo: _[Sushi Sunday](https://sushi-sunday.firebaseapp.com)
 
 ## Purpose:
 

@@ -6,4 +6,4 @@ node_modules
 
 build
 
-base.js
+src/base.js
